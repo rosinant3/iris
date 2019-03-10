@@ -1,0 +1,330 @@
+.options {
+
+    list-style: none;
+    display: flex;
+    flex-basis: column;
+    padding: 0rem;
+    margin: 0rem;
+    border-style: solid;
+    border-color: rgb(212, 200, 200);
+    border-width: 1px;
+    border-radius: 5px;
+    margin-bottom: 5px;
+    background-color: rgb(212, 200, 200);
+
+}
+
+#multiFile {
+
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+
+}
+
+#typewriter {
+
+    position: relative;
+    margin-bottom: 2rem;
+    padding: 2rem;
+    border-style: solid;
+    border-color: rgb(116, 116, 182);
+    border-radius: 5px;
+    margin-top: 2rem;
+
+}
+
+.editor {
+
+        position: relative;
+        margin-bottom: 2rem;
+        padding: 2rem;
+        border-style: solid;
+        border-color: rgb(116, 116, 182);
+        border-radius: 5px;
+        margin-top: 2rem;
+        display: flex;
+        flex-direction: column;
+    
+}
+
+.container {
+
+    padding-left: 0px;
+    padding-right: 0px;
+
+}
+
+.editor > form {
+
+    display: block;
+
+}
+
+#upButton {
+
+    width: 5rem;
+
+}
+
+
+.fileUploadForm {
+
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    border-style: solid;
+    border-color: rgb(116, 116, 182);
+    border-radius: 5px;
+
+}
+
+.fileUploadForm > label {
+
+    margin-right: 1rem;
+
+}
+
+.button {
+
+    border-radius: 5px;
+    padding: 0.6rem;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    margin-top: 1rem;
+    cursor: pointer;
+    border-width: 0px;
+    
+}
+
+
+#errors {
+
+    list-style: none;
+    padding: 0rem;
+
+}
+
+#image {
+
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+    cursor: pointer;
+ 
+}
+
+.options > li {
+
+    padding: 1rem;
+    cursor: pointer;
+    font-weight: 700;
+
+}
+
+.options > li:hover {
+
+    background-color: rgb(196, 163, 163);
+
+}
+
+.tbody {
+
+    min-height: 50vh;
+    white-space: pre-line;
+
+}
+
+#hide {
+
+    display: none;
+
+}
+
+.overflow {
+
+    height: 100vh;
+    overflow: scroll;
+    border-style: solid;
+    border-color: rgb(116, 116, 182);
+    border-radius: 5px;
+    margin-bottom: 2rem;
+    
+}
+
+.select-menu {
+
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    border-width: 0px;
+    border-radius: 5px;
+    padding: 0.4rem;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    margin-top: 1rem;
+    cursor: pointer;
+
+}
+
+.unique {
+
+    margin-top: 0px !important;
+
+}
+
+.nazbar {
+
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: rgb(116, 116, 182);
+
+}
+
+.nazbar > li {
+
+    float: left;
+
+}
+
+.nazbar > li > a {
+
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    
+}
+
+.nazbar > li > a:hover {
+
+    background-color: #111;
+
+}
+
+
+.inputwidth {
+
+    width: 13rem !important;
+
+}
+
+#navigation {
+
+    background-color: rgb(116, 116, 182);
+
+}
+
+.navigation {
+
+    float: left;
+    display: block;
+    padding: 15px;
+    background-color: rgb(116, 116, 182);
+    color: white;
+    cursor: pointer;
+    transition-property: background-color;
+    transition-duration: 700ms;
+
+}
+
+.admin:hover {
+
+    background-color: rgb(116, 116, 182);
+    cursor: default;
+    
+}
+
+
+.activemenuitem {
+
+    background-color: rgb(72, 72, 122);
+
+}
+
+.menuitem:hover {
+
+    background-color: rgb(72, 72, 122);
+
+}
+
+.imagebutton {
+
+    background-color:rgb(116, 116, 182);
+    border-width: 1px;
+    border-style: solid;
+    border-radius: 5px;
+    color: white;
+    padding: 10px;
+    cursor: pointer;
+    transition: background-color, 700ms;
+
+}
+
+.imagebutton:hover {
+
+    background-color:rgb(71, 71, 128);
+
+}
+
+.changebutton {
+
+    margin-top: 0.5rem;
+    margin-bottom: 1.5rem;
+
+}
+
+.imagedump {
+
+    height: 50vh;
+    border-radius: 5px;
+    border-color: rgb(116, 116, 182);
+    border-style: solid;
+    margin-top: 1rem;
+    overflow: scroll;
+    padding: 2rem;
+
+}
+
+.picture {
+
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+
+}
+
+.picture > div {
+
+    color: black;
+    padding: 0.5rem;
+    font-size: 12px;
+    border-bottom-width: 1px;
+    border-bottom-color: black;
+
+}
+
+.searchimages {
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 50px;
+
+}
+
+.directoryform {
+
+    display: flex;
+
+}
+
+#link:hover {
+
+    text-decoration: none;
+    color: white;
+
+}

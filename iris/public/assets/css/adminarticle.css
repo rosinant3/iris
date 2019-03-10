@@ -1,0 +1,378 @@
+.background {
+  
+  background-size: cover;
+
+}
+
+nav > a {
+
+  list-style: none;
+  display: inline-block;
+  font-size: 1em;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  margin-right: 25px;
+  font-weight: bold;
+  color: rgb(116, 116, 182);
+  position: relative;
+  text-decoration: none;
+  top: 5px;
+
+}
+
+.logo {
+
+  color: rgb(81, 0, 0);
+  margin-left: 25px;
+  font-size: 1.5em;
+  font-weight: 500;
+  z-index: 11;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  display: block;
+  height: 30px;
+
+}
+
+nav > a:hover {
+
+  text-decoration: none;
+  color: rgb(175, 86, 3);
+
+}
+
+nav > a:before {
+
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 2px;
+  bottom: -3px;
+  left: 0;
+  background-color: rgb(74, 74, 133);
+  visibility: hidden;
+  -webkit-transform: scaleX(0);
+  transform: scaleX(0);
+  -webkit-transition: all 0.3s ease-in-out 0s;
+  transition: all 0.3s ease-in-out 0s;
+
+}
+
+nav > a:hover:before {
+
+  visibility: visible;
+  -webkit-transform: scaleX(1);
+  transform: scaleX(1);
+
+}
+
+nav {
+
+  display: flex;
+  width: 100%;
+  height: 55px;
+  text-align: right;
+  z-index: 1000;
+  position: absolute;
+  left: 0px;
+  right: 0px;
+  background-color: rgb(10, 10, 75, 0);
+  
+}
+
+
+.mar {
+
+  margin-right: 30px;
+
+}
+
+.headline {
+
+  width: 100%;
+  height: 100%;
+  padding: 0;
+  margin: 0;
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+}
+
+.title {
+
+  color: white;
+  opacity: 0;
+  font-weight: bold;
+  font-size: 3.5em;
+  transition: all 3.2s;
+  text-shadow: 2px 2px 5px rgba(0,0,0,0.8), 0px 0px 2px  rgba(0,0,0,1);
+
+}
+
+.row-no-padding > [class*="col-"] {
+
+  padding-left: 0 !important;
+  padding-right: 0 !important;
+
+}
+
+.row-experiment > [class*="col-"] {
+
+  padding-left: 10px !important;
+  padding-right: 0px !important;
+
+}
+
+.row-padding > [class*="col-"] {
+
+  padding-left: 40px !important;
+  padding-right: 40px !important;
+
+}
+
+.last {
+
+  background-color: rgb(116, 116, 182);
+  background-size: cover;
+
+}
+
+.container2 {
+
+  position: relative;
+  right: 0px;
+
+}
+
+.headphoto {
+
+  width: 80%;
+  margin: auto;
+  height: auto;
+  margin-bottom: 2rem;
+
+}
+
+
+.articlewrap {
+
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  margin: auto;
+  margin-bottom: 300px;
+
+}
+
+.text {
+
+  width: 100%;
+  margin: auto;
+  padding-top: 5rem;
+  padding-bottom: 4rem;
+  margin-bottom: 4rem;
+  margin-top: 3.5rem;
+  background-color: rgb(116, 116, 182);
+  text-align: center;
+
+}
+
+.text > h1 {
+
+  font-size: 2.3rem;
+  color: white;
+  display: block;
+  width: 80%;
+  margin: auto;
+  margin-bottom: 1rem;
+
+}
+
+.text > p {
+
+  font-size: 1.2rem;
+  color: white;
+  display: block;
+  width: 80%;
+  margin: auto;
+  margin-bottom: 1rem;
+
+}
+
+.text > span {
+
+  font-size: 1.1rem;
+  color: white;
+  display: block;
+  width: 80%;
+  margin: auto;
+  margin-bottom: 1rem;
+
+}
+
+
+#authorname {
+
+  font-size: 1.3rem;
+
+}
+
+.body {
+
+  width: 100%;
+  margin: auto
+
+}
+
+ul.share-buttons{
+
+  list-style: none;
+  padding: 0;
+  display: block;
+  width: 80%;
+  margin: auto;
+  margin-top: 2rem;
+
+}
+
+ul.share-buttons li{
+
+  display: inline;
+
+}
+
+ul.share-buttons .sr-only{
+
+  position: absolute;
+  clip: rect(1px 1px 1px 1px);
+  clip: rect(1px, 1px, 1px, 1px);
+  padding: 0;
+  border: 0;
+  height: 1px;
+  width: 1px;
+  overflow: hidden;
+
+}
+
+.bodytext {
+
+  width: 70%;
+  margin: auto; 
+  font-size: 1.2rem;
+
+}
+
+.bodytext > h1 {
+
+  font-size: 1.9rem;
+  width: 60%;
+  display: block;
+  margin-bottom: 1rem;
+
+}
+
+.left {
+
+  width: 50%;
+  float: left;
+  height: auto;
+  margin: 3rem;
+  margin-left: 0rem;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+
+}
+
+.right {
+
+  width: 50%;
+  float: right;
+  height: auto;
+  margin: 3rem;
+  margin-right: 0rem;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+
+}
+
+.center {
+
+  float: none;
+  margin: auto;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  margin-left: 0rem;
+  margin-right: 0rem;
+  width: 100%;
+
+}
+
+.bodytext > p {
+
+  width: 100%;
+  display: block;
+  margin-bottom: 1rem;
+
+}
+
+.bodytext > ul {
+
+  width: 85%;
+  display: block;
+  margin-bottom: 1rem;
+
+}
+
+.bodytext > ul > li {
+
+  margin-bottom: 1rem;
+
+}
+
+.bodytext > h5 {
+
+  margin-bottom: 1rem;
+  margin-top: 3rem;
+
+}
+
+#author {
+
+  color: grey;
+  display: block;
+  margin-top: 3rem;
+  
+}
+
+@media screen and (max-width: 950px) {
+
+  .left {
+
+    float: none;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    margin-left: 0rem;
+    margin-right: 0rem;
+    width: 100%;
+
+  }
+
+  .right {
+
+    float: none;
+    margin: auto;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    margin-left: 0rem;
+    margin-right: 0rem;
+    width: 100%;
+
+  }
+
+}
