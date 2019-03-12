@@ -4,7 +4,7 @@ Small CMS and Blog.
 
 Features posting, editing, removing and categorizing articles; uploading and removing images.
 
-Back-end part is made with PHP/Zend Expressive. Front-end is made with React.js (without JSX).
+Back-end part is made with PHP/Zend Expressive. Front-end is made with React.js (without JSX). MySQL database.
 
 Short presentation of the site it shown on the video below:
 
